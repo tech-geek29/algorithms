@@ -18,5 +18,6 @@ public class Power{
         System.out.println("Enter the value of n in x^n: ");
         int n = sc.nextInt();
         System.out.println("x^n = "+power(x, n));
+        sc.close();
     }
 }
